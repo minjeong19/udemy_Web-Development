@@ -1,0 +1,52 @@
+a {
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+  background-color: rgb(96, 191, 207, 0.397);
+  border-radius: 8px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: rgba(84, 176, 192, 0.397);
+  text-decoration: none;
+}
+
+ol {
+  list-style: none;
+  width: 500px;
+  margin: 36px auto 0 auto; /*왼쪽 오른쪽 auto로 하면 중앙에 배치 할 수 있음*/
+  padding: 0;
+}
+
+li {
+  padding: 16px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
+  background-color: rgba(96, 191, 207, 0.397);
+  border-radius: 10px;
+}
+
+li h2 {
+  color: rgb(37, 49, 59);
+}
+
+li p {
+  color: rgb(69, 86, 99);
+}
+
+header p {
+  color: rgb(37, 49, 59);
+}
+
+header {
+  margin-top: 20px;
+}
+
+.important {
+  background-color: rgba(57, 183, 206, 0.562);
+}
+
+#pad {
+  margin: 12px 5px;
+}

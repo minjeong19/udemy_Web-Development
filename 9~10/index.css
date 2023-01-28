@@ -1,0 +1,77 @@
+body {
+  background-color: #dad7cd;
+}
+
+header,
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 55px;
+  color: #344e41;
+  text-align: center;
+}
+
+header img {
+  width: 300px;
+  text-align: center;
+}
+
+main {
+  margin: 10px auto 10px auto; /*10px auto*/
+  padding: 30px;
+  background-color: #a3b18a;
+  width: 850px;
+  border-radius: 15px;
+}
+
+a {
+  padding: 2px;
+  background-color: #3a572e2d;
+  border-radius: 5px;
+  color: #080a09;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  background-color: #1d30152d;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  color: #1b2e25;
+}
+
+li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent; /*모든 곳에 해줘야지 열이 맞음 그러나 투명으로 해줌 transparent*/
+}
+
+.extra-important {
+  color: #19241f;
+  border-color: rgb(18, 66, 18); /*  border-left위에서 중복되기 때문*/
+  font-weight: bold;
+}
+
+p {
+  margin: 10px auto;
+}
+
+footer p {
+  margin: 30px;
+} /*footer   안에 있는  p */
+
+footer a {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,37 @@
+body {
+  margin-top: 150px;
+}
+main {
+  margin: auto; /* 중앙정렬*/
+  padding: 20px;
+  width: 700px;
+  background-color: #a3e0ec;
+  border-radius: 10px;
+  border: 3.5px solid #323152c0;
+  box-shadow: 2px 2px 3px rgb(99, 99, 99);
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px; /*둥글게*/
+  border: 3.5px solid #323152c0;
+  display: inline;
+  margin-top: -100px;
+}
+
+h1 {
+  font-size: 35px;
+}
+span {
+  color: #1e1f49;
+}
+/*id 속성이용*/
+
+#todays-challenge {
+  font-family: "Kanit", sans-serif;
+  color: rgb(68, 68, 129);
+  font-weight: bold; /*텍스트 굵기*/
+  font-size: 28px; /* 폰트 사이즈는 px 좋음 */
+}
+/* 크기 단위 px, rem, % */
