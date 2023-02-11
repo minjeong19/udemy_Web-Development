@@ -1,3 +1,4 @@
+/* 가장큰화면 */
 #hero {
   height: 1000px;
   background-image: url("./images/places/ocean.jpg");
@@ -47,6 +48,14 @@
 #hero-content a:hover {
   background-color: rgb(255, 238, 0);
 }
+
+/* 하이라이트화면 */
+#highlights {
+  padding: 24px;
+  background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+  /* background-color: rgb(227, 255, 253); */
+}
+
 #highlights h2 {
   text-transform: uppercase;
   text-align: center;
