@@ -11,7 +11,7 @@ ul {
 
 header {
   display: flex;
-  position: absolute;
+  position: absolute; /*배경위로 가게 하게*/
   /* background-color: pink; */
   padding: 15px 60px;
   justify-content: space-between;
