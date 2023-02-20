@@ -1,27 +1,88 @@
 body {
   background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+  color: rgb(68, 68, 68);
 }
 
+/* HEADER */
 header {
   position: static;
 }
 /* shared.css에서 absolute설정이 되어 있어 덮어쓰려고 사용 */
 
-main ul {
-  width: 800px;
-  margin: 0 auto; /*컨테이너 중앙*/
+/* LOGO */
+header #page-logo a {
+  color: rgb(183, 230, 235);
 }
 
-main li {
+header nav ul li a {
+  color: rgb(183, 230, 235);
+  transition: 0.4s;
+}
+
+header nav ul li a:hover {
+  background-color: rgb(183, 230, 235);
+  color: rgb(59, 59, 59);
+}
+
+/* MAIN */
+main .card {
+  width: 1200px;
+  margin: 30px auto 48px auto; /*컨테이너 중앙*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px 45px;
+}
+
+main .card .inner {
   display: flex;
+  position: relative;
   background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: 0.1s;
+}
+main .card .inner:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
+}
+main .card .inner:nth-of-type(3) {
+  grid-column: 1 / 3;
+}
+main .card .inner:nth-of-type(6) {
+  grid-column: 1 / 3;
+}
+main .card .inner:nth-of-type(9) {
+  grid-column: 1 / 3;
 }
 
-main li img {
+main .card .inner .item-image {
   width: 300px;
   height: 280px;
+  object-fit: cover;
+}
+main .card .inner .actions {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transition: 0.2s;
+}
+main .card .inner .actions a {
+  text-decoration: none;
+  color: rgb(9, 181, 216);
+  transition: 0.5s;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+main .card .inner .actions a:hover {
+  background-color: rgba(227, 234, 234, 0.599);
+  /* color: rgb(230, 226, 226); */
 }
 
-.item-content {
-  padding: 24px;
+main .card .inner .item-content {
+  padding: 12px;
+}
+
+main .card .inner .item-content h2 {
+  margin: 5px;
 }

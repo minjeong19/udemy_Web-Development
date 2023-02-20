@@ -20,8 +20,8 @@ header {
   box-sizing: border-box;
 }
 
-/* 로고파트 */
-#page-logo a {
+/* LOGO */
+header #page-logo a {
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
   color: rgb(245, 243, 160);
@@ -31,28 +31,30 @@ header {
   text-shadow: 1px 1px 2px black;
 }
 
-header ul {
+header nav ul {
   display: flex;
 }
 
-header li {
+header nav ul li {
   margin-left: 20px;
 }
 
-header a {
+header nav ul li a {
   color: rgb(255, 251, 0);
   text-decoration: none;
   font-size: 20px;
   padding: 12px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
   border-radius: 6px;
+  transition: 0.4s;
 }
-header > nav > ul > li > a:hover {
+
+header nav ul li a:hover {
   color: rgb(77, 77, 77);
   background-color: rgb(255, 251, 0);
 }
 
-/* 푸터 */
+/* FOOTER */
 footer {
   background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
 }
