@@ -1,0 +1,12 @@
+.Pocemon {
+  border: 1px solid rgb(72, 63, 122);
+  border-radius: 10px;
+  color: rgb(59, 96, 110);
+  width: 300px;
+  height: 250px;
+  text-align: center;
+}
+.Pocemon img {
+  width: 150px;
+  height: 150px;
+}
