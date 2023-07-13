@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ColorBoxes.css";
+import "./ColorBox.css";
 export default function ColorBox({ colors }) {
   const randomChoice = (arr) => {
     const idx = Math.floor(Math.random() * arr.length);
